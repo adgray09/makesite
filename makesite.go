@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import "io/ioutil"
 
 func main() {
-	fmt.Println("Hello, world!")
+
+	bytesToWrite := []byte("hello\ngo\n")
+	err := ioutil.WriteFile("new-file.txt", bytesToWrite, 0644)
+	if err != nil {
+		panic(err)
+	}
+	
 }
