@@ -51,14 +51,14 @@ If you get stuck on any step, be sure to print the output to `stdout`!
 #### v1.0 Requirements
 
 - [X] Edit line `4` of `README.md`. Change this line to the following, replacing `YOUR_USERNAME` and `YOUR_REPONAME` with your GitHub username and repository name respectively.
-- [ ] Read in the contents of the provided `first-post.txt` file.
-- [ ] Edit the provided HTML template (`template.tmpl`) to display the contents of `first-post.txt`.
-- [ ] Render the contents of `first-post.txt` using Go Templates and print it to stdout.
-- [ ] Write the HTML template to the filesystem to a file. Name it `first-post.html`.
-- [ ] Manually test the generated HTML page by running `/.makesite`. Double-click the `first-post.html` file that appears in your directory after running the command to open the generated page in your browser.
-- [ ] **Add, commit, and push to GitHub**.
+- [X] Read in the contents of the provided `first-post.txt` file.
+- [X] Edit the provided HTML template (`template.tmpl`) to display the contents of `first-post.txt`.
+- [X] Render the contents of `first-post.txt` using Go Templates and print it to stdout.
+- [X] Write the HTML template to the filesystem to a file. Name it `first-post.html`.
+- [X] Manually test the generated HTML page by running `/.makesite`. Double-click the `first-post.html` file that appears in your directory after running the command to open the generated page in your browser.
+- [X] **Add, commit, and push to GitHub**.
 - [ ] Add a new flag to your command named `file`. This flag represents the name of any `.txt` file in the same directory as your program. Run `./makesite --file=latest-post.txt` to test.
-- [ ] Update the `save` function to use the input filename to generate a new HTML file. For example, if the input file is named `latest-post.txt`, the generated HTML file should be named `latest-post.html`.
+- [X] Update the `save` function to use the input filename to generate a new HTML file. For example, if the input file is named `latest-post.txt`, the generated HTML file should be named `latest-post.html`.
 - [ ] **Add, commit, and push to GitHub**.
 
 #### v1.0 Stretch Challenges
